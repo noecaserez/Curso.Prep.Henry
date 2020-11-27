@@ -1,7 +1,7 @@
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
 * `prototype`
-    --> es una forma en la que un objeto puede extender sus metodos o valores a otro objeto. (Extender una funcion).
+    --> es una forma en la que un objeto puede extender sus metodos o valores a otro objeto. (Extender una funcion). El prototype se refiere al objeto madre. Cuando invocamos los metodos .length, .push su prototype seria Array.
 
     Cuando le pedimos a un objeto una propiedad que no tiene, la busca en su prototipo el cual apunta al objeto que tiene a la izquiera del punto.
 
