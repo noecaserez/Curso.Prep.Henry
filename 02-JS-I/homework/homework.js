@@ -40,7 +40,7 @@ function suma(x, y) {
 }
 
 function resta(x, y) {
-  // Resta "x" de "y" y devuelve el valor
+  // Resta "y" de "x" y devuelve el valor
   // Tu código:
   var restar = x - y
   return restar;
@@ -146,13 +146,13 @@ function elevar(num, exponent) {
 }
 
 function redondearNumero(num) {
-  // Redondea "num" y devuélvelo
+  // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
-  // Redondea "num" hacia arriba y devuélvelo
+  // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   return Math.ceil(num);
 }
@@ -179,7 +179,7 @@ function obtenerSaludo(nombre) {
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
-  // Retornar el area de un cuadrado teniendo su altura y ancho
+  // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   return alto * ancho;
 }

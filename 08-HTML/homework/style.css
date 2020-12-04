@@ -1,0 +1,320 @@
+/*Proveniente de UI gradients*/
+body{
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Titulo NOMBRE*/
+/* Hover a la palabra Noelia*/
+.letras:hover > a{
+    color: #DBE6F6;   
+
+}
+
+
+.titulo-nombre{
+    background: linear-gradient(to right, #C5796D, #DBE6F6);
+    height: 65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    /*text-shadow: 10px 11px 18px rgba(300, 180, 100, 1);*/
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.div-madre{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Primer Div aqui va Educacion */
+.primer-div{
+    background-color: blanchedalmond;
+    width: 600px;
+    height: 450px;
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-top-left-radius: 30px 40px;
+    border-bottom-left-radius: 30px 40px;
+    border-top-right-radius: 30px 40px;
+    border-bottom-right-radius: 30px 40px;
+    
+} .primer-div:hover{
+    border: 2px solid #DBE6F6;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+
+.educacion-div li{
+    padding: 3px;
+    padding-left: 7px;
+    text-align: left;
+
+}
+
+.educacion-div{
+    font-size: 15px;
+    
+}
+.educacion-div_{
+    text-align: left;
+    padding-left: 6px;
+
+}
+
+.educacion-div__{
+    padding-left: 7px;
+    text-align: left;
+}
+
+
+/* ASIDE (IZQUIERDA)*/
+/* Div del ASIDE */
+.aside{
+    background: linear-gradient(to bottom, #ebe2e1, #9fb5d8bb);
+    width: 230px;
+    height: 950px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    top: -1340px;
+    padding: 3px;
+    border-top-left-radius: 30px 40px;
+    border-bottom-left-radius: 30px 40px;
+    border-top-right-radius: 30px 40px;
+    border-bottom-right-radius: 30px 40px;
+}
+
+.aside:hover{
+    border: 2px solid #DBE6F6;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+/* ASIDE datos personales */
+
+.datos-personales-div{
+    margin-top: 50px;
+}
+.aside-ul1{
+    display: block;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 5px;
+
+}
+
+.aside-li1{
+    display: block;
+    text-align: left;
+    padding: 3px;
+
+}
+
+/* ASIDE Acerca de mi*/
+
+.about-me{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+}
+
+/* ASIDE Skills */
+
+.div-skills{
+    margin-top: 50px;
+}
+
+.aside-ul2{
+    display: block;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 5px;
+
+}
+
+.aside-li2{
+    display: block;
+    text-align: left;
+    padding: 3px;
+
+}
+
+/* ASIDE Iconos de redes sociales*/
+
+.aside-redes-sociales{
+    position: relative;
+    top: 60px;
+}
+
+
+
+.aside-li{
+    display: block;
+    padding: 10px;
+
+}
+
+.aside-li:hover > a{
+    color: lightcoral;
+
+}
+
+.aside-ul{
+    padding-left: 10;
+    text-align: left;
+    
+}
+
+.aside-li i{
+    width: 25px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.aside-li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* IMAGEN de persona*/
+.img{
+    background-color: #DBE6F6;
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 53%;
+    border-bottom-left-radius: 56%;
+    border-bottom-right-radius: 56%;
+    margin-left: 53%;
+    margin-top: 2px;
+    
+}
+
+/*Seccion EXPERIENCIA LABORAL */
+.exp-laboral{
+    background-color: blanchedalmond;
+    width: 600px;
+    height: 450px;
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-right: 20px;
+    border-top-left-radius: 30px 40px;
+    border-bottom-left-radius: 30px 40px;
+    border-top-right-radius: 30px 40px;
+    border-bottom-right-radius: 30px 40px;
+        
+}
+
+.exp-laboral:hover{
+    border: 2px solid #DBE6F6;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+.exp-laboral li{
+    padding: 3px;
+    text-align: left;
+}
+
+
+
+/* HOBBIES */
+
+.hobbies{
+    background-color: blanchedalmond;
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    
+}
+
+.hobbies:hover{
+    border: 2px solid #DBE6F6;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.img-gym{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.img-libros{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.img-comida{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+
+/* ULTIMO DIV*/
+.aside-adicional{
+    background: linear-gradient(to bottom, #ebe2e1, #9fb5d8bb);
+    width: 250px;
+    height: 600px;
+    border: 2px solid black;
+    text-align: center;
+    position: relative;
+    top: -550px;
+    left: 990px;
+    padding: 3px;
+    border-top-left-radius: 13%;
+    border-top-right-radius: 13%;
+    border-bottom-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    
+}
+
+.aside-adicional:hover{
+    border: 2px solid #DBE6F6;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
